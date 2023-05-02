@@ -549,10 +549,10 @@ void render_stars_anim(void) {
 
     /* the animation prevents the normal timeout from occuring */
     if (last_input_activity_elapsed() < OLED_TIMEOUT) {
-        starry_night_anim_timer = timer_read32();
+        //starry_night_anim_timer = timer_read32();
         oled_on();
         render_stars_anim();
-        starry_night_anim_sleep = timer_read32();
+        //starry_night_anim_sleep = timer_read32();
     } else {
         oled_off();
     }

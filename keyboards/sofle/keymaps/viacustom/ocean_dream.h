@@ -24,7 +24,7 @@
  */
 #define ENABLE_MOON            // Uses 182 bytes
 #define ENABLE_WAVE            // Uses 844 bytes
-#define ENABLE_SHOOTING_STARS  // Uses 872 bytes
+//#define ENABLE_SHOOTING_STARS  // Uses 872 bytes
 #define ENABLE_ISLAND
 #define ENABLE_STARS  // Uses 606 bytes
 
@@ -50,7 +50,7 @@
  * Wave Parameters
  */
 #define OCEAN_LINE 14        // Line you want to render the ocean starting at (best at oled_max_lines() - 2)
-#define WAVE_CALM 10         // render calm ocean under this WPM and ripple ocean at this WPM
+#define WAVE_CALM 15         // render calm ocean under this WPM and ripple ocean at this WPM
 #define WAVE_HEAVY_STORM 30  // render medium ocean at this WPM
 #define WAVE_HURRICANE 40    // render heavy waves above this WPM
 // What number of frames you want to animate the ocean at.
@@ -87,7 +87,7 @@
 #define ISLAND_LINE 12         // line that the island starts at. Island is 2 lines tall
 #define ISLAND_COLUMN 0        // column that the island starts at
 #define ISLAND_CALM 15         // WPM at which the palm tree calmly moves
-#define ISLAND_HEAVY_STORM 25  // WPM at which the heavy storm occurs
+#define ISLAND_HEAVY_STORM 30  // WPM at which the heavy storm occurs
 #define ISLAND_HURRICANE 45    // WPM at which THE HURRICANE STARTS
 
 /*

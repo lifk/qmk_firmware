@@ -4,7 +4,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
   case KC_RCTL:
 #ifdef OCEAN_DREAM_ENABLE
     is_calm = (record->event.pressed) ? true : false;
-#endif;
+#endif
     if (record->event.pressed) {
       isSneaking = true;
     } else {
